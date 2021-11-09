@@ -138,3 +138,27 @@ a{
   grid-column: 1/-1;
   grid-row: 8/-1;
 }
+
+/*när sidan blir mindre än 1200px händer detta*/
+@media only screen and (max-width: 1200px){
+  #damon{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  #stefan{
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  #elena{
+    grid-column: 2/3;
+    grid-row: 7/8;
+  }
+  #bonnie{
+    grid-column: 2/3;
+    grid-row: 9/10;
+  }
+  #caroline{
+    grid-column: 2/3;
+    grid-row: 11/12;
+  }
+}
