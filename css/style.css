@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}/*gör så att all padding och margin är 0 om något annat ej anges*/
+
+body {
+  background-color: black;
+}
+
+#tvdlogo{
+  width: 80%;
+  height: 100%;
+}
+
+#tvdposter{
+  border: white solid 1px;
+  margin-left: 25px;
+}
+
+h3{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+}
+
+p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+pre{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*menyn*/
+ul{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;/*--gör så att listans prickar försvinner*/
+    margin: 0;
+    padding: 5px;
+    border: solid white 1px;
+    width: 250px;
+    height: 325px;
+    font-size: 125%;
+    line-height: 40px; /*vertikalt mellanrum mellan texterna*/
+    margin-left: 7px;
+  }
+
+/*hur karaktärernas namn ska se ut i menyn*/
+.characters{
+  font-size: 75%;
+  color:rgb(142, 31, 37);
+  line-height: 25px;/*vertikalt mellanrum mellan texterna*/
+}
+
+h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 7px;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 125%;
+}
+
+/*text om handlingen på första sidan*/
+#pstory{
+  margin-bottom: 20px;
+}
+
+/*bilder på karaktärerna*/
+#damon{
+  width: 50%;
+  height:90%;
+  border: white solid 1px;
+}
+#stefan{
+  width: 50%;
+  height:95%;
+  border: white solid 1px;
+}
+#elena{
+  width: 50%;
+  height:90%;
+  border: white solid 1px;
+}
+#bonnie{
+  width: 50%;
+  height:85%;
+  border: white solid 1px;
+}
+#caroline{
+  width: 50%;
+  height:95%;
+  border: white solid 1px;
+}
+
+/*länkarnas utseende*/
+a:link{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 7px;
+  text-decoration: none; /*tar bort strecket under länkarna*/
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color:rgb(142, 31, 37);
+}
+
+#tvdposter2{
+  display: none; /*bilden är osynlig*/
+  width: 60%;
+  height: 99%;
+  border: white solid 1px;
+  justify-self: center;
+}
+
+/*när sidan blir mindre än 1200px händer detta*/
+@media only screen and (max-width: 1200px){
+  #tvdposter{
+    display: none; /*bilden försvinner när sidan är mindre än 1200px*/
+  }
+  #tvdposter2{
+    display: block; /*den osynliga bilden blir synlig när sidan är mindre än 1200px*/
+  }
+}

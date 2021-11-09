@@ -1,0 +1,140 @@
+.container{
+  display: grid;
+  grid-template-columns: 280px repeat(2, 1fr);
+  grid-template-rows: auto 45px auto 45px auto 45px auto 45px auto 45px auto 45px;
+}
+
+/*bild på loggan*/
+#tvdlogo {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+/*h3 rubrikerna på den första sidan*/
+#storyh3 {
+  grid-column: 2/3;
+  grid-row:2/3;
+}
+#seasonsh3{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#iconicquotesh3{
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+/*paragraf text på första sidan*/
+#piconicquotes{
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+#pstory{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#pseasons{
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+/*menyn*/
+ul{
+  grid-column: 1/2;
+  grid-row: 2/5;
+}
+
+/*bild på första sidan*/
+#tvdposter{
+  grid-column: 3/4;
+  grid-row: 2/-1;
+}
+
+/*h1 rubrik på andra sidan*/
+h1{
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+/*h2 rubriker på andra sidan*/
+#damonh2{
+  grid-column: 2/3;
+  grid-row:2/3;
+}
+#stefanh2{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#elenah2{
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+#bonnieh2{
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+#carolineh2{
+  grid-column: 2/3;
+  grid-row: 10/11;
+}
+
+/*bilder på karaktärerna*/
+#damon{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#stefan{
+  grid-column:3/4;
+  grid-row: 5/6;
+}
+#elena{
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+#bonnie{
+  grid-column: 3/4;
+  grid-row: 9/10;
+}
+#caroline{
+  grid-column:3/4;
+  grid-row:11/12;
+}
+
+/*text på andra sidan om karaktärerna*/
+#damonpre{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#stefanpre{
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+#elenapre{
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+#bonniepre{
+  grid-column: 2/3;
+  grid-row: 9/10;
+}
+#carolinepre{
+  grid-column: 2/3;
+  grid-row: 11/12;
+}
+
+/*länk till HBO på första sidan*/
+a{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+#topplänk{
+  grid-column: 2/3;
+  grid-row: 12/13;
+}
+
+/*bilden som dyker upp när sidan är mindre än 1200px*/
+#tvdposter2{
+  grid-column: 1/-1;
+  grid-row: 8/-1;
+}
