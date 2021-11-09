@@ -74,6 +74,11 @@ h2{
   margin-bottom: 20px;
 }
 
+/*text om säsongerna på första sidan*/
+#pseasons{
+  margin-bottom: 20px;
+}
+
 /*bilder på karaktärerna*/
 #damon{
   width: 50%;
@@ -128,7 +133,29 @@ a:hover{
   #tvdposter{
     display: none; /*bilden försvinner när sidan är mindre än 1200px*/
   }
+
   #tvdposter2{
     display: block; /*den osynliga bilden blir synlig när sidan är mindre än 1200px*/
+  }
+
+  #damon{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  #stefan{
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  #elena{
+    grid-column: 2/3;
+    grid-row: 7/8;
+  }
+  #bonnie{
+    grid-column: 2/3;
+    grid-row: 9/10;
+  }
+  #caroline{
+    grid-column: 2/3;
+    grid-row: 11/12;
   }
 }
