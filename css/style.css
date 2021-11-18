@@ -23,14 +23,14 @@ h3{
   font-size: 150%;
 }
 
-p{
+p, pre{
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
-pre{
-  color: white;
-  font-family: 'Roboto', sans-serif;
+/*text om handlingen och säsongerna på första sidan*/
+#pstory,#pseasons{
+  margin-bottom: 20px;
 }
 
 /*menyn*/
@@ -67,16 +67,6 @@ h2{
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 125%;
-}
-
-/*text om handlingen på första sidan*/
-#pstory{
-  margin-bottom: 20px;
-}
-
-/*text om säsongerna på första sidan*/
-#pseasons{
-  margin-bottom: 20px;
 }
 
 /*bilder på karaktärerna*/
