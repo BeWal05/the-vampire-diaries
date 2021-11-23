@@ -10,6 +10,12 @@
   grid-row: 1/2;
 }
 
+/*bild på första sidan*/
+#tvdposter{
+  grid-column: 3/4;
+  grid-row: 2/8;
+}
+
 /*h3 rubrikerna på den första sidan*/
 #storyh3 {
   grid-column: 2/3;
@@ -44,12 +50,6 @@ ul{
   grid-row: 2/5;
 }
 
-/*bild på första sidan*/
-#tvdposter{
-  grid-column: 3/4;
-  grid-row: 2/-1;
-}
-
 /*länk till HBO på första sidan*/
 a{
   grid-column: 1/2;
@@ -59,7 +59,7 @@ a{
 /*bilden som dyker upp när sidan är mindre än 1200px*/
 #tvdposter2{
   grid-column: 1/-1;
-  grid-row: 8/-1;
+  grid-row: 8/11;
 }
 
 /*h1 rubrik på andra sidan*/
@@ -71,67 +71,52 @@ h1{
 /*h2 rubriker på andra sidan*/
 #damonh2{
   grid-column: 2/3;
-  grid-row:2/3;
 }
 #stefanh2{
   grid-column: 2/3;
-  grid-row: 4/5;
 }
 #elenah2{
   grid-column: 2/3;
-  grid-row: 6/7;
 }
 #bonnieh2{
   grid-column: 2/3;
-  grid-row: 8/9;
 }
 #carolineh2{
   grid-column: 2/3;
-  grid-row: 10/11;
 }
 
 /*bilder på karaktärerna*/
 #damon{
   grid-column: 3/4;
-  grid-row: 3/4;
 }
 #stefan{
   grid-column:3/4;
-  grid-row: 5/6;
 }
 #elena{
   grid-column: 3/4;
-  grid-row: 7/8;
 }
 #bonnie{
   grid-column: 3/4;
-  grid-row: 9/10;
 }
 #caroline{
   grid-column:3/4;
-  grid-row:11/12;
 }
 
 /*text på andra sidan om karaktärerna*/
 #damonpre{
   grid-column: 2/3;
-  grid-row: 3/4;
 }
 #stefanpre{
   grid-column: 2/3;
-  grid-row: 5/6;
 }
 #elenapre{
   grid-column: 2/3;
-  grid-row: 7/8;
 }
 #bonniepre{
   grid-column: 2/3;
-  grid-row: 9/10;
 }
 #carolinepre{
   grid-column: 2/3;
-  grid-row: 11/12;
 }
 
 #topplänk{
@@ -143,22 +128,21 @@ h1{
 @media only screen and (max-width: 1200px){
   #damon{
     grid-column: 2/3;
-    grid-row: 3/4;
   }
   #stefan{
     grid-column: 2/3;
-    grid-row: 5/6;
   }
   #elena{
     grid-column: 2/3;
-    grid-row: 7/8;
   }
   #bonnie{
     grid-column: 2/3;
-    grid-row: 9/10;
   }
   #caroline{
     grid-column: 2/3;
-    grid-row: 11/12;
+  }
+  #topplänk{
+    grid-column: 2/3;
+    grid-row: 17/18;
   }
 }

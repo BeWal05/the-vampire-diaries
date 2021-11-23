@@ -15,6 +15,7 @@ body {
 #tvdposter{
   border: white solid 1px;
   margin-left: 25px;
+  width: 100%;
 }
 
 h3{
